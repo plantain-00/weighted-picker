@@ -23,9 +23,9 @@ const items = [
     { name: "d", weight: 4 },
 ];
 const picker = new WeightedPicker(items.length, index => items[index].weight);
-picker.pickOne();
-picker.pickOne();
-picker.pickOne();
+let index = picker.pickOne();
+index = picker.pickOne();
+index = picker.pickOne();
 ```
 
 or
@@ -36,7 +36,7 @@ import { WeightedPicker } from "weighted-picker";
 const items = ["a", "b", "c", "d"];
 const weights = [1, 2, 3, 4];
 const picker = new WeightedPicker(items.length, index => weights[index]);
-picker.pickOne();
-picker.pickOne();
-picker.pickOne();
+let index = picker.pickOne();
+index = picker.pickOne();
+index = picker.pickOne();
 ```
