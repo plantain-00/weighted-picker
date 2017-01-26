@@ -1,14 +1,14 @@
 {
   "name": "weighted-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to pick a random item from weighted array.",
   "main": "index.js",
-  "dependencies": {
-    "jasmine": "^2.5.3",
-    "typescript": "^2.1.5",
-    "tslint": "^4.4.1"
+  "devDependencies": {
+    "@types/jasmine": "2.5.41",
+    "jasmine": "2.5.3",
+    "tslint": "4.4.1",
+    "typescript": "2.1.5"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "jasmine",
     "build": "tsc",

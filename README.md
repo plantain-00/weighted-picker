@@ -26,7 +26,9 @@ const picker = new WeightedPicker(items.length, index => items[index].weight);
 picker.pickOne();
 picker.pickOne();
 picker.pickOne();
-Ï```
+```
+
+or
 
 ```ts
 import { WeightedPicker } from "weighted-picker";
