@@ -1,0 +1,27 @@
+{
+  "name": "weighted-picker",
+  "version": "1.0.0",
+  "description": "A library to pick a random item from weighted array.",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.5.3",
+    "typescript": "^2.1.5",
+    "tslint": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine",
+    "build": "tsc",
+    "lint": "tslint \"*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plantain-00/weighted-picker.git"
+  },
+  "author": "York Yao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plantain-00/weighted-picker/issues"
+  },
+  "homepage": "https://github.com/plantain-00/weighted-picker#readme"
+}
