@@ -6,7 +6,7 @@
   "devDependencies": {
     "@types/jasmine": "2.5.41",
     "jasmine": "2.5.3",
-    "tslint": "4.4.1",
+    "tslint": "4.4.2",
     "typescript": "2.1.5"
   },
   "scripts": {
