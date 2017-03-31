@@ -4,10 +4,10 @@
   "description": "A library to pick a random item from weighted array.",
   "main": "index.js",
   "devDependencies": {
-    "@types/jasmine": "2.5.43",
+    "@types/jasmine": "2.5.47",
     "jasmine": "2.5.3",
-    "tslint": "4.5.1",
-    "typescript": "2.2.1"
+    "tslint": "5.0.0",
+    "typescript": "2.2.2"
   },
   "scripts": {
     "test": "jasmine",
