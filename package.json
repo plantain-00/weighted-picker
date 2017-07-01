@@ -10,7 +10,7 @@
     "typescript": "2.4.1"
   },
   "scripts": {
-    "test": "jasmine",
+    "test": "tsc && jasmine",
     "build": "tsc",
     "lint": "tslint \"*.ts\" \"spec/*.ts\""
   },
