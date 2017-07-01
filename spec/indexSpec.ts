@@ -16,5 +16,5 @@ describe("all", () => {
         picker.pickOne();
         picker.pickOne();
         picker.pickOne();
-    })
+    });
 });
