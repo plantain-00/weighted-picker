@@ -1,4 +1,4 @@
-import { WeightedPicker } from "../index";
+import WeightedPicker from "../dist/nodejs";
 
 it("", () => {
     const items = ["a", "b", "c", "d"];
