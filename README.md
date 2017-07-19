@@ -14,7 +14,14 @@ A library to pick a random item from weighted array.
 #### usage
 
 ```ts
-import { WeightedPicker } from "weighted-picker";
+// nodejs:
+import WeightedPicker from "weighted-picker/nodejs";
+
+// browser(mode):
+import WeightedPicker from "weighted-picker/browser";
+
+// browser(script tag):
+// <script src="weighted-picker/weighted-picker.min.js"></script>
 
 const items = [
     { name: "a", weight: 1 },
@@ -31,7 +38,7 @@ index = picker.pickOne();
 or
 
 ```ts
-import { WeightedPicker } from "weighted-picker";
+import WeightedPicker from "weighted-picker";
 
 const items = ["a", "b", "c", "d"];
 const weights = [1, 2, 3, 4];
@@ -39,4 +46,15 @@ const picker = new WeightedPicker(items.length, index => weights[index]);
 let index = picker.pickOne();
 index = picker.pickOne();
 index = picker.pickOne();
+```
+
+#### change logs
+
+```ts
+// v2
+import WeightedPicker from "weighted-picker/nodejs";
+import WeightedPicker from "weighted-picker/browser";
+
+// v1
+import { WeightedPicker } from "weighted-picker";
 ```

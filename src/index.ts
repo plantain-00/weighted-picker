@@ -1,4 +1,4 @@
-export class WeightedPicker {
+export default class WeightedPicker {
     private values: number[] = [];
     constructor(private count: number, getWeight: (index: number) => number) {
         if (typeof count !== "number" || count < 0 || isNaN(count)) {
