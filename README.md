@@ -1,6 +1,7 @@
 [![Dependency Status](https://david-dm.org/plantain-00/weighted-picker.svg)](https://david-dm.org/plantain-00/weighted-picker)
 [![devDependency Status](https://david-dm.org/plantain-00/weighted-picker/dev-status.svg)](https://david-dm.org/plantain-00/weighted-picker#info=devDependencies)
-[![Build Status](https://travis-ci.org/plantain-00/weighted-picker.svg?branch=master)](https://travis-ci.org/plantain-00/weighted-picker)
+[![Build Status: Linux](https://travis-ci.org/plantain-00/weighted-picker.svg?branch=master)](https://travis-ci.org/plantain-00/weighted-picker)
+[![Build Status: Windows](https://ci.appveyor.com/api/projects/status/github/plantain-00/weighted-picker?branch=master&svg=true)](https://ci.appveyor.com/project/plantain-00/weighted-picker/branch/master)
 [![npm version](https://badge.fury.io/js/weighted-picker.svg)](https://badge.fury.io/js/weighted-picker)
 [![Downloads](https://img.shields.io/npm/dm/weighted-picker.svg)](https://www.npmjs.com/package/weighted-picker)
 
