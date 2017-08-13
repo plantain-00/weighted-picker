@@ -1,3 +1,6 @@
+/**
+ * @public
+ */
 export default class WeightedPicker {
     private values: number[] = [];
     constructor(private count: number, getWeight: (index: number) => number) {
