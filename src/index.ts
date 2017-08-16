@@ -20,7 +20,18 @@ export default class WeightedPicker {
             }
         }
     }
-    binaryPick(value: number) {
+    public pickOne() {
+        if (this.count === 0) {
+            return -1;
+        }
+        if (this.count === 1) {
+            return 0;
+        }
+        const randomValue = Math.random() * this.values[this.values.length - 1];
+
+        return this.binaryPick(randomValue);
+    }
+    private binaryPick(value: number) {
         if (value < this.values[0]) {
             return 0;
         }
@@ -37,16 +48,5 @@ export default class WeightedPicker {
             }
         }
         return right + 1;
-    }
-    pickOne() {
-        if (this.count === 0) {
-            return -1;
-        }
-        if (this.count === 1) {
-            return 0;
-        }
-        const randomValue = Math.random() * this.values[this.values.length - 1];
-
-        return this.binaryPick(randomValue);
     }
 }
