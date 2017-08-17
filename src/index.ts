@@ -31,7 +31,7 @@ export default class WeightedPicker {
 
         return this.binaryPick(randomValue);
     }
-    private binaryPick(value: number) {
+    public binaryPick(value: number) {
         if (value < this.values[0]) {
             return 0;
         }
