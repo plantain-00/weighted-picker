@@ -18,8 +18,8 @@ A library to pick a random item from weighted array.
 // nodejs:
 import WeightedPicker from "weighted-picker/nodejs";
 
-// browser(mode):
-import WeightedPicker from "weighted-picker/browser";
+// browser(module):
+// import WeightedPicker from "weighted-picker/browser";
 
 // browser(script tag):
 // <script src="weighted-picker/weighted-picker.min.js"></script>
