@@ -4,6 +4,8 @@
   "description": "A library to pick a random item from weighted array.",
   "main": "index.js",
   "devDependencies": {
+    "@commitlint/cli": "5.0.1",
+    "@commitlint/config-angular": "5.0.1",
     "@types/jasmine": "2.8.2",
     "clean-release": "1.3.5",
     "clean-scripts": "1.7.0",
