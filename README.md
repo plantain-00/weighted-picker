@@ -16,10 +16,12 @@ A library to pick a random item from weighted array.
 
 ```ts
 // nodejs:
-import WeightedPicker from "weighted-picker/nodejs";
+import WeightedPicker from "weighted-picker";
+// import WeightedPicker from "weighted-picker/nodejs"; // ES syntax
 
 // browser(module):
-// import WeightedPicker from "weighted-picker/browser";
+// import WeightedPicker from "weighted-picker";
+// import WeightedPicker from "weighted-picker/browser"; // ES module
 
 // browser(script tag):
 // <script src="weighted-picker/weighted-picker.min.js"></script>
