@@ -1,3 +1,5 @@
+# weighted-picker
+
 [![Dependency Status](https://david-dm.org/plantain-00/weighted-picker.svg)](https://david-dm.org/plantain-00/weighted-picker)
 [![devDependency Status](https://david-dm.org/plantain-00/weighted-picker/dev-status.svg)](https://david-dm.org/plantain-00/weighted-picker#info=devDependencies)
 [![Build Status: Linux](https://travis-ci.org/plantain-00/weighted-picker.svg?branch=master)](https://travis-ci.org/plantain-00/weighted-picker)
@@ -5,14 +7,13 @@
 [![npm version](https://badge.fury.io/js/weighted-picker.svg)](https://badge.fury.io/js/weighted-picker)
 [![Downloads](https://img.shields.io/npm/dm/weighted-picker.svg)](https://www.npmjs.com/package/weighted-picker)
 
-# weighted-picker
 A library to pick a random item from weighted array.
 
-#### install
+## install
 
 `npm i weighted-picker`
 
-#### usage
+## usage
 
 ```ts
 // nodejs:
@@ -51,7 +52,7 @@ index = picker.pickOne();
 index = picker.pickOne();
 ```
 
-#### change logs
+## change logs
 
 ```ts
 // v2
