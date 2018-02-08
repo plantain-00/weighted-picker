@@ -1,7 +1,7 @@
 {
-    "extends": "./tsconfig.base.json",
-    "compilerOptions": {
-        "target": "esnext",
-        "outDir": "../dist/nodejs"
-    }
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "outDir": "../dist/nodejs"
+  }
 }
