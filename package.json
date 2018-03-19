@@ -1,6 +1,6 @@
 {
   "name": "weighted-picker",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A library to pick a random item from weighted array.",
   "main": "index.js",
   "devDependencies": {
