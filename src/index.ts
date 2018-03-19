@@ -3,7 +3,7 @@
  */
 export default class WeightedPicker {
   private values: number[] = []
-  constructor (private count: number, getWeight: (index: number) => number) {
+  constructor (private count: number, private getWeight: (index: number) => number) {
     if (typeof count !== 'number' || count < 0 || isNaN(count)) {
       this.count = 0
     }
@@ -25,7 +25,8 @@ export default class WeightedPicker {
       return -1
     }
     if (this.count === 1) {
-      return 0
+      const weight = this.getWeight(0)
+      return typeof weight !== 'number' || weight <= 0 || isNaN(weight) ? -1 : 0
     }
     const randomValue = Math.random() * this.values[this.values.length - 1]
 
@@ -47,6 +48,6 @@ export default class WeightedPicker {
         return middle + 1
       }
     }
-    return right + 1
+    return right === this.values.length - 1 ? -1 : right + 1
   }
 }
