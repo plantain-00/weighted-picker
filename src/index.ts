@@ -3,7 +3,7 @@
  */
 export default class WeightedPicker {
   private values: number[] = []
-  constructor (private count: number, private getWeight: (index: number) => number) {
+  constructor(private count: number, private getWeight: (index: number) => number) {
     if (typeof count !== 'number' || count < 0 || isNaN(count)) {
       this.count = 0
     }
@@ -20,7 +20,7 @@ export default class WeightedPicker {
       }
     }
   }
-  public pickOne () {
+  public pickOne() {
     if (this.count === 0) {
       return -1
     }
@@ -32,7 +32,7 @@ export default class WeightedPicker {
 
     return this.binaryPick(randomValue)
   }
-  public binaryPick (value: number) {
+  public binaryPick(value: number) {
     if (value < this.values[0]) {
       return 0
     }
