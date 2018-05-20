@@ -1,8 +1,12 @@
 {
   "name": "weighted-picker",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A library to pick a random item from weighted array.",
   "main": "index.js",
+  "module": "index.js",
+  "unpkg": "weighted-picker.min.js",
+  "jsdelivr": "weighted-picker.min.js",
+  "types": "index.d.ts",
   "devDependencies": {
     "@commitlint/cli": "6.2.0",
     "@commitlint/config-conventional": "6.1.3",
