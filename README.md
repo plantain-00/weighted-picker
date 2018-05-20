@@ -6,6 +6,7 @@
 [![Build Status: Windows](https://ci.appveyor.com/api/projects/status/github/plantain-00/weighted-picker?branch=master&svg=true)](https://ci.appveyor.com/project/plantain-00/weighted-picker/branch/master)
 [![npm version](https://badge.fury.io/js/weighted-picker.svg)](https://badge.fury.io/js/weighted-picker)
 [![Downloads](https://img.shields.io/npm/dm/weighted-picker.svg)](https://www.npmjs.com/package/weighted-picker)
+[![gzip size](https://img.badgesize.io/https://unpkg.com/weighted-picker?compression=gzip)](https://unpkg.com/weighted-picker)
 
 A library to pick a random item from weighted array.
 
