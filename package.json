@@ -16,7 +16,7 @@
     "markdownlint-cli": "0.10.0",
     "no-unused-export": "1.5.1",
     "rimraf": "2.6.2",
-    "rollup": "0.61.1",
+    "rollup": "0.62.0",
     "rollup-plugin-node-resolve": "3.3.0",
     "rollup-plugin-uglify": "4.0.0",
     "standard": "11.0.1",
