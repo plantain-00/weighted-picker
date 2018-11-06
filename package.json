@@ -23,7 +23,7 @@
     "tslint": "5.11.0",
     "tslint-config-standard": "8.0.1",
     "tslint-sonarts": "1.8.0",
-    "type-coverage": "1.4.1",
+    "type-coverage": "1.4.5",
     "typescript": "3.1.6"
   },
   "scripts": {
@@ -35,6 +35,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plantain-00/weighted-picker.git"
+  },
+  "typeCoverage": {
+    "atLeast": 99
   },
   "author": "York Yao",
   "license": "MIT",
