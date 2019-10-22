@@ -6,10 +6,10 @@
   "module": "browser/index.js",
   "unpkg": "weighted-picker.min.js",
   "jsdelivr": "weighted-picker.min.js",
-  "types": "nodejs/index.d.ts",
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
+    "@microsoft/api-extractor": "^7.5.2",
     "@types/jasmine": "3.4.4",
     "@typescript-eslint/eslint-plugin": "2.4.0",
     "@typescript-eslint/parser": "2.4.0",
