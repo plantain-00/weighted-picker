@@ -1,40 +1,42 @@
-import WeightedPicker from '../dist/nodejs'
+import test from 'ava'
 
-it('binaryPick', () => {
+import WeightedPicker from '../src'
+
+test('binaryPick', (t) => {
   const items = ['a', 'b', 'c', 'd']
   const weights = [1, 2, 3, 4]
   const picker = new WeightedPicker(items.length, index => weights[index])
 
-  expect(picker.binaryPick(0)).toEqual(0)
-  expect(picker.binaryPick(0.99)).toEqual(0)
-  expect(picker.binaryPick(1)).toEqual(1)
-  expect(picker.binaryPick(2.99)).toEqual(1)
-  expect(picker.binaryPick(3)).toEqual(2)
-  expect(picker.binaryPick(5.99)).toEqual(2)
-  expect(picker.binaryPick(6)).toEqual(3)
-  expect(picker.binaryPick(9.99)).toEqual(3)
+  t.is(picker.binaryPick(0), 0)
+  t.is(picker.binaryPick(0.99), 0)
+  t.is(picker.binaryPick(1), 1)
+  t.is(picker.binaryPick(2.99), 1)
+  t.is(picker.binaryPick(3), 2)
+  t.is(picker.binaryPick(5.99), 2)
+  t.is(picker.binaryPick(6), 3)
+  t.is(picker.binaryPick(9.99), 3)
 })
 
-it('one item, 0 weight', () => {
+test('one item, 0 weight', (t) => {
   const items = ['a']
   const weights = [0]
   const picker = new WeightedPicker(items.length, index => weights[index])
 
-  expect(picker.pickOne()).toEqual(-1)
+  t.is(picker.pickOne(), -1)
 })
 
-it('one item, positive weight', () => {
+test('one item, positive weight', (t) => {
   const items = ['a']
   const weights = [1]
   const picker = new WeightedPicker(items.length, index => weights[index])
 
-  expect(picker.pickOne()).toEqual(0)
+  t.is(picker.pickOne(), 0)
 })
 
-it('two item, 0 weight', () => {
+test('two item, 0 weight', (t) => {
   const items = ['a', 'b']
   const weights = [0, 0]
   const picker = new WeightedPicker(items.length, index => weights[index])
 
-  expect(picker.pickOne()).toEqual(-1)
+  t.is(picker.pickOne(), -1)
 })
